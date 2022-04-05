@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hubungin.com | Store</title>
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/Custom_css/Create_form.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css">
+</head>
+
+<body class="admin-version">
+
+    <!-- Humberger Begin -->
+    <div class="humberger__menu__overlay"></div>
+    <!-- Humberger End -->
+
+    <!-- Header Section Begin -->
+    <header class="header"> <!--  sticky-top -->
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-envelope"></i>custservice@hubungin.com</li>
+                                <li>Cari kebutuhan anda di sini</li>
+                                <li>Menghubungkan anda ke beragam UMKM</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="header__top__right">
+                            <div class="header__top__right__social">
+                                <a href="https://twitter.com/agung_DPro" target="__blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/agungdwiprabowo/" target="__blank"><i class="fa fa-instagram"></i></a>
+                            </div>
+                            <div class="header__top__right__auth">
+                                <a href="#"><i class="fa fa-user"></i> Masuk</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-white px-0">
+            <!-- <div class="row mx-5">
+                <div class="col-lg-12">
+                    <div class="header__logo pb-0 pt-0">
+                        <a href="{{ url('/') }}"><img src="/static/img/Home-4-r.png" alt=""></a>
+                    </div>
+                </div>
+            </div> -->
+            <ul class="list-group pt-2">
+                <li class="list-group-item p-0 border-left-0 border-top-0 border-right-0 border-bottom text-center">
+                    <div class="header__logo pb-0 pt-0">
+                        <a href="{{ url('/') }}"><img src="/static/img/Home-4-r.png" alt=""></a>
+                    </div>
+                </li>
+                <li class="list-group-item py-0 border-0 text-center px-5">
+                    <ul class="list-group list-group-horizontal w-100">
+                        <li class="list-group-item w-100 top-nav rounded-0 selected-nav">
+                            <span class="menu-title font-weight-bold"><a onclick="return false" href="/dashboard">Dashboard</a></span>
+                        </li>
+                        <li class="list-group-item w-100 top-nav rounded-0">
+                            <span class="menu-title font-weight-bold"><a href="/daftar-produk">Produk</a></span>
+                        </li>
+                        <li class="list-group-item w-100 top-nav rounded-0">
+                            <span class="menu-title font-weight-bold"><a href="/penjualan">Penjualan</a></span>
+                        </li>
+                        <li class="list-group-item w-100 top-nav rounded-0">
+                            <span class="menu-title font-weight-bold"><a href="/pesanan">Pesanan</a></span>
+                        </li>
+                        <li class="list-group-item w-100 top-nav rounded-0">
+                            <span class="menu-title font-weight-bold"><a href="/review">Review</a></span>
+                        </li>
+                        <li class="list-group-item w-100 rounded-0 top-nav">
+                            <span class="menu-title font-weight-bold"><a href="/akun">Akun</a></span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <section class="mx-2 py-2">
+        <div class="container-fluid p-0">
+            <div class="card-body">
+                <!-- card-informasi-ringkas -->
+                <ul class="list-group list-group-horizontal-sm border-0 card pb-2 mb-2 trans-bkg">
+                    <li class="list-group-item pt-0 pb-0 border-top border-left border-right w-100 card-body rounded mx-2 border-bottom-blue-nh border-bottom-bold">
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h5>Penjualan Nama_bulan</h5>
+                            </li>
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h4><b>Rp. 000,000,000</b></h4>
+                            </li>
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h6><i class="fa fa-level-up"></i> Peningkatan <span class="badge badge-pill badge-success">5%</span></h6>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item pt-0 pb-0 border-top border-left border-right w-100 card-body rounded mx-2 border-bottom-green-nh border-bottom-bold">
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h5>Item terjual Nama_bulan</h5>
+                            </li>
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h4><b>0000</b></h4>
+                            </li>
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h6><i class="fa fa-level-up" aria-hidden="true"></i> Peningkatan <span class="badge badge-pill badge-success">5%</span></h6>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item pt-0 pb-0 border-top border-left border-right w-100 card-body rounded mx-2 border-bottom-red-nh border-bottom-bold">
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h5>Rating keseluruhan</h5>
+                            </li>
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <div class="product__details__rating">
+                                    <i class="fa fa-star fa-lg"></i>
+                                    <i class="fa fa-star fa-lg"></i>
+                                    <i class="fa fa-star fa-lg"></i>
+                                    <i class="fa fa-star fa-lg"></i>
+                                    <i class="fa fa-star-half-o fa-lg"></i>
+                                </div>
+                            </li>
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h6>(18,000) Reviews</h6>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item pt-0 pb-0 border-top border-left border-right w-100 card-body rounded mx-2 border-bottom-black-nh border-bottom-bold">
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h5>Total transaksi</h5>
+                            </li>
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h4><b>3,000</b></h4>
+                            </li>
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h6><i class="fa fa-level-up" aria-hidden="true"></i> Peningkatan <span class="badge badge-pill badge-success">5%</span></h6>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- /card-informasi ringkas -->
+            </div>
+        </div>
+    </section>
+
+    <section class="my-2 py-2 mx-3">
+        <div class="container-fluid shadow  bg-white rounded">
+            <div class="row border-bottom">
+                <div class="col-md-9 border-right">
+                    <div id="grafik-1" class="col-md-12">
+                    
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="col-md-12 border-bottom-no-hover mb-2 py-3">
+                        <h4 class="mx-2 font-weight-bold">Penjualan baru-baru ini</h4>
+                    </div>
+                    <ul class="list-group card border-0 view-height-50">
+                        <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                            <ul class="list-group list-group-horizontal p-0 h-100">
+                                <li class="list-group-item border-0 w-100 p-2">
+                                    <h5 class="my-auto"><a href="">Nama produk</a></h5>
+                                    <h6 class="my-auto">40 buah</h6>
+                                    <h6 class="my-auto">Rp. 000000</h6>
+                                    <h6 class="my-auto">COD</h6>
+                                </li>
+                                <li class="list-group-item border-0 w-50">
+                                    <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                            <ul class="list-group list-group-horizontal p-0 h-100">
+                                <li class="list-group-item border-0 w-100 p-2">
+                                    <h5 class="my-auto"><a href="">Nama produk</a></h5>
+                                    <h6 class="my-auto">40 buah</h6>
+                                    <h6 class="my-auto">Rp. 000000</h6>
+                                    <h6 class="my-auto">COD</h6>
+                                </li>
+                                <li class="list-group-item border-0 w-50">
+                                    <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                            <ul class="list-group list-group-horizontal p-0 h-100">
+                                <li class="list-group-item border-0 w-100 p-2">
+                                    <h5 class="my-auto"><a href="">Nama produk</a></h5>
+                                    <h6 class="my-auto">40 buah</h6>
+                                    <h6 class="my-auto">Rp. 000000</h6>
+                                    <h6 class="my-auto">COD</h6>
+                                </li>
+                                <li class="list-group-item border-0 w-50">
+                                    <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                            <ul class="list-group list-group-horizontal p-0 h-100">
+                                <li class="list-group-item border-0 w-100 p-2">
+                                    <h5 class="my-auto"><a href="">Nama produk</a></h5>
+                                    <h6 class="my-auto">40 buah</h6>
+                                    <h6 class="my-auto">Rp. 000000</h6>
+                                    <h6 class="my-auto">COD</h6>
+                                </li>
+                                <li class="list-group-item border-0 w-50">
+                                    <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                            <ul class="list-group list-group-horizontal p-0 h-100">
+                                <li class="list-group-item border-0 w-100 p-2">
+                                    <h5 class="my-auto"><a href="">Nama produk</a></h5>
+                                    <h6 class="my-auto">40 buah</h6>
+                                    <h6 class="my-auto">Rp. 000000</h6>
+                                    <h6 class="my-auto">COD</h6>
+                                </li>
+                                <li class="list-group-item border-0 w-50">
+                                    <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12 mt-0 mb-2">
+                <h6><b>Target penjualan</b></h6>
+                <p class="mb-2">Pencapaian penjualan 1 bulan ini</p>
+                <div class="progress" style="height: 10px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 20%">20%</div>
+                </div>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item border-0 my-1 py-0 w-100 pl-0">
+                        <p><b>Pertumbuhan anda</b></p>
+                    </li>
+                    <li class="list-group-item border-0 my-1 py-0 w-100 text-right">
+                        <p><b>Rp. 0</b></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="mx-0 py-1">
+        <div class="container-fluid p-0">
+            <div class="card-body">
+                <!-- card-informasi-ringkas -->
+                <ul class="list-group list-group-horizontal-sm border-0 card pb-2 mb-2 trans-bkg">
+                    <li class="list-group-item pt-0 pb-0 border-top border-left border-right w-100 card-body rounded mx-2 border-bottom-blue-nh border-bottom-bold">
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h5>Pesanan baru</h5>
+                            </li>
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h4><b>10</b></h4>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item pt-0 pb-0 border-top border-left border-right w-100 card-body rounded mx-2 border-bottom-green-nh border-bottom-bold">
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h5>Pesanan dalam proses</h5>
+                            </li>
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h4><b>0000</b></h4>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item pt-0 pb-0 border-top border-left border-right w-100 card-body rounded mx-2 border-bottom-black-nh border-bottom-bold">
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h5>Produk akan habis stok</h5>
+                            </li>
+                            <li class="list-group-item border-0 my-2 p-0">
+                                <h4><b>15</b></h4>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- /card-informasi ringkas -->
+            </div>
+        </div>
+    </section>
+    <section class="my-0 py-1">
+        <div class="container-fluid">
+            <ul class="list-group list-group-horizontal-sm m-0 p-0 border-0 w-100 pb-2 mb-2 trans-bkg">
+                <li class="list-group-item pt-0 pb-0 border-left-0 border-top-0 border-right-0 w-100 rounded mx-2 border-bottom-no-hover border-bottom-bold">
+                    <ul class="list-group h-100">
+                        <li class="list-group-item border-0 my-2 p-0 trans">
+                            <h5>Item dalam daftar jual</h5>
+                        </li>
+                        <li class="list-group-item border-0 my-2 p-0 trans text-center mb-4">
+                            <h4><b>Rp. 000,000,000</b></h4>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item pt-0 pb-0 border-left-0 border-top-0 border-right-0 w-100 rounded mx-2 border-bottom-black-nh border-bottom-bold">
+                    <ul class="list-group">
+                        <li class="list-group-item border-0 my-2 p-0">
+                            <h5>Item masuk dalam wishlist</h5>
+                        </li>
+                        <li class="list-group-item border-0 my-2 p-0 text-center mb-4">
+                            <h4><b>0000</b></h4>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="my-3 mx-2 py-2">
+        <div class="container-fluid shadow bg-white rounded">
+            <div class="row">
+                <div class="col-md-9 border-right">
+                    <div id="grafik-2" class="col-md-12">
+                    
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="col-md-12 border-bottom-no-hover mb-2 py-3">
+                        <h4 class="mx-2 font-weight-bold">Penjualan terbanyak</h4>
+                    </div>
+                    <ul class="list-group card border-0 view-height-50">
+                        <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                            <ul class="list-group list-group-horizontal p-0 h-100">
+                                <li class="list-group-item border-0 w-100 p-2">
+                                    <h5 class="my-2"><a href="">Nama produk</a></h5>
+                                    <h6 class="my-2">40 buah</h6>
+                                </li>
+                                <li class="list-group-item border-0 w-50">
+                                    <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                            <ul class="list-group list-group-horizontal p-0 h-100">
+                                <li class="list-group-item border-0 w-100 p-2">
+                                    <h5 class="my-2"><a href="">Nama produk</a></h5>
+                                    <h6 class="my-2">40 buah</h6>
+                                </li>
+                                <li class="list-group-item border-0 w-50">
+                                    <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                            <ul class="list-group list-group-horizontal p-0 h-100">
+                                <li class="list-group-item border-0 w-100 p-2">
+                                    <h5 class="my-2"><a href="">Nama produk</a></h5>
+                                    <h6 class="my-2">40 buah</h6>
+                                </li>
+                                <li class="list-group-item border-0 w-50">
+                                    <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                            <ul class="list-group list-group-horizontal p-0 h-100">
+                                <li class="list-group-item border-0 w-100 p-2">
+                                    <h5 class="my-2"><a href="">Nama produk</a></h5>
+                                    <h6 class="my-2">40 buah</h6>
+                                </li>
+                                <li class="list-group-item border-0 w-50">
+                                    <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-1 mx-2 py-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 card border-0 trans-bkg">
+                    <div class="card-body border rounded mx-0 bg-white">
+                        <div class="col-md-12 border-bottom-no-hover mb-2">
+                            <h4 class="mx-2 font-weight-bold">Review baru-baru ini</h4>
+                        </div>
+                        <ul class="list-group w-100 vh-100 overflow-auto">
+                            <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom">
+                                <h6 class="font-weight-bold">Nama pembeli</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam natus excepturi id cum praesentium autem incidunt porro enim, odit tempore? Optio voluptatem quas eum deserunt perferendis ullam omnis dicta harum!</p>
+                                <div class="product__details__rating">
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star-half-o fa-sm"></i>
+                                    <span> | dd/mm/yyyy HH:MM WIB | </span>
+                                    <a href=""><a href="">Nama Produk</a></a>
+                                </div>
+                            </li>
+                            <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom">
+                                <h6 class="font-weight-bold">Nama pembeli</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam natus excepturi id cum praesentium autem incidunt porro enim, odit tempore? Optio voluptatem quas eum deserunt perferendis ullam omnis dicta harum!</p>
+                                <div class="product__details__rating">
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star-half-o fa-sm"></i>
+                                    <span> | dd/mm/yyyy HH:MM WIB | </span>
+                                    <a href=""><a href="">Nama Produk</a></a>
+                                </div>
+                            </li>
+                            <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom">
+                                <h6 class="font-weight-bold">Nama pembeli</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam natus excepturi id cum praesentium autem incidunt porro enim, odit tempore? Optio voluptatem quas eum deserunt perferendis ullam omnis dicta harum!</p>
+                                <div class="product__details__rating">
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star-half-o fa-sm"></i>
+                                    <span> | dd/mm/yyyy HH:MM WIB | </span>
+                                    <a href=""><a href="">Nama Produk</a></a>
+                                </div>
+                            </li>
+                            <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom">
+                                <h6 class="font-weight-bold">Nama pembeli</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam natus excepturi id cum praesentium autem incidunt porro enim, odit tempore? Optio voluptatem quas eum deserunt perferendis ullam omnis dicta harum!</p>
+                                <div class="product__details__rating">
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star-half-o fa-sm"></i>
+                                    <span> | dd/mm/yyyy HH:MM WIB | </span>
+                                    <a href=""><a href="">Nama Produk</a></a>
+                                </div>
+                            </li>
+                            <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom">
+                                <h6 class="font-weight-bold">Nama pembeli</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam natus excepturi id cum praesentium autem incidunt porro enim, odit tempore? Optio voluptatem quas eum deserunt perferendis ullam omnis dicta harum!</p>
+                                <div class="product__details__rating">
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star-half-o fa-sm"></i>
+                                    <span> | dd/mm/yyyy HH:MM WIB | </span>
+                                    <a href=""><a href="">Nama Produk</a></a>
+                                </div>
+                            </li>
+                            <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom">
+                                <h6 class="font-weight-bold">Nama pembeli</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam natus excepturi id cum praesentium autem incidunt porro enim, odit tempore? Optio voluptatem quas eum deserunt perferendis ullam omnis dicta harum!</p>
+                                <div class="product__details__rating">
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star fa-sm"></i>
+                                    <i class="fa fa-star-half-o fa-sm"></i>
+                                    <span> | dd/mm/yyyy HH:MM WIB | </span>
+                                    <a href=""><a href="">Nama Produk</a></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 card border-0 trans-bkg">
+                    <div class="card-body border rounded mx-0 bg-white">
+                        <div class="col-md-12 border-bottom-no-hover mb-2">
+                            <h4 class="mx-2 font-weight-bold">Item Favorit</h4>
+                        </div>
+                        <ul class="list-group w-100 vh-100 overflow-auto">
+                            <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                                <ul class="list-group list-group-horizontal p-0">
+                                    <li class="list-group-item border-0 w-50">
+                                        <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                    </li>
+                                    <li class="list-group-item border-0 w-100">
+                                        <h4 class="font-weight-bold"><a href="">Nama produk</a></h4>
+                                        <div class="product__details__rating">
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star-half-o fa-sm"></i>
+                                        </div>
+                                        <h5>Rp. 00000</h5>
+                                        <p class="py-0 my-1">15 Order | 4 Wishlist | 10 Review</p>
+                                        <button class="btn btn-outline-warning btn-sm"><i class="fa fa-pencil-square-o"></i></button>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                                <ul class="list-group list-group-horizontal p-0">
+                                    <li class="list-group-item border-0 w-50">
+                                        <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                    </li>
+                                    <li class="list-group-item border-0 w-100">
+                                        <h4 class="font-weight-bold"><a href="">Nama produk</a></h4>
+                                        <div class="product__details__rating">
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star-half-o fa-sm"></i>
+                                        </div>
+                                        <h5>Rp. 00000</h5>
+                                        <p class="py-0 my-1">15 Order | 4 Wishlist | 10 Review</p>
+                                        <button class="btn btn-outline-warning btn-sm"><i class="fa fa-pencil-square-o"></i></button>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                                <ul class="list-group list-group-horizontal p-0">
+                                    <li class="list-group-item border-0 w-50">
+                                        <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                    </li>
+                                    <li class="list-group-item border-0 w-100">
+                                        <h4 class="font-weight-bold"><a href="">Nama produk</a></h4>
+                                        <div class="product__details__rating">
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star-half-o fa-sm"></i>
+                                        </div>
+                                        <h5>Rp. 00000</h5>
+                                        <p class="py-0 my-1">15 Order | 4 Wishlist | 10 Review</p>
+                                        <button class="btn btn-outline-warning btn-sm"><i class="fa fa-pencil-square-o"></i></button>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item border-top-0 border-left-0 border-right-0 py-1 my-1 border-bottom px-0 mx-0">
+                                <ul class="list-group list-group-horizontal p-0">
+                                    <li class="list-group-item border-0 w-50">
+                                        <img src="/static/img/product/discount/pd-1.jpg" alt="">
+                                    </li>
+                                    <li class="list-group-item border-0 w-100">
+                                        <h4 class="font-weight-bold"><a href="">Nama produk</a></h4>
+                                        <div class="product__details__rating">
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star fa-sm"></i>
+                                            <i class="fa fa-star-half-o fa-sm"></i>
+                                        </div>
+                                        <h5>Rp. 00000</h5>
+                                        <p class="py-0 my-1">15 Order | 4 Wishlist | 10 Review</p>
+                                        <button class="btn btn-outline-warning btn-sm"><i class="fa fa-pencil-square-o"></i></button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </uli>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-1 mx-2 py-2">
+        <div class="container-fluid shadow bg-white rounded py-4">
+            <div id="grafik-3" class="col-md-12">
+
+            </div>
+            <div class="row">
+                <div class="col-md-4 border-0 card px-2">
+                    <div class="card-body border rounded">
+                        <div class="col-md-12 mb-2 border-bottom-blue-nh pb-3">
+                            <h4 class="font-weight-bold">Pengunjung toko bulan_berjalan</h4>
+                        </div>
+                        <ul class="list-group view-height-50">
+                            <li class="list-group border-left-0 border-top-0 border-right-0 border-bottom p-1">
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 border-0 card px-2">
+                    <div class="card-body border rounded">
+                        <div class="col-md-12 mb-2 border-bottom-black-nh pb-3">
+                            <h4 class="font-weight-bold">Produk kunjungan terbanyak</h4>
+                        </div>
+                        <ul class="list-group view-height-50">
+                            <li class="list-group border-left-0 border-top-0 border-right-0 border-bottom p-1">
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 border-0 card px-2">
+                    <div class="card-body border rounded">
+                        <div class="col-md-12 mb-2 border-bottom-red-nh pb-3">
+                            <h4 class="font-weight-bold">Produk dipesan terbanyak</h4>
+                        </div>
+                        <ul class="list-group view-height-50">
+                            <li class="list-group border-left-0 border-top-0 border-right-0 border-bottom p-1">
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="./index.html"><img src="/static/img/Home-4-r.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Alamat: Sleman, DI Yogyakarta</li>
+                            <li>Email: custservice@hubungin.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                        <h6>Tautan alternatif</h6>
+                        <ul>
+                            <li><a href="#">Tentang kami</a></li>
+                            <!-- <li><a href="#">About Our Shop</a></li>
+                            <li><a href="#">Secure Shopping</a></li>
+                            <li><a href="#">Delivery infomation</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Our Sitemap</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <h6>Media sosial</h6>
+                        <p>Dapatkan info & penawaran menarik dari kami melalui:</p>
+                        <div class="footer__widget__social">
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Tampilan web ini dibuat oleh  <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                        <!-- <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery-ui.min.js"></script>
+    <script src="/static/js/jquery.slicknav.js"></script>
+    <script src="/static/js/mixitup.min.js"></script>
+    <script src="/static/js/owl.carousel.min.js"></script>
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/Custom_js/Create_form.js"></script>
+    <!-- <script src="{{ asset('/js/Custom_js/Create_form.js') }}"></script> -->
+    <script src = "https://code.highcharts.com/highcharts.js"></script>
+    <script src = "https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="/static/data_visualization/Graphic_data_v/Dashboard_grafik.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+
+
+
+</body>
+
+</html>

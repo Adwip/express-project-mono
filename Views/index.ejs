@@ -1,0 +1,2143 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hubing.com</title>
+    <!-- css -->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/Custom_css/Create_form.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css">
+</head>
+<body>
+    
+    <!-- Humberger Begin -->
+    <div class="humberger__menu__overlay"></div>
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-envelope"></i>custservice@hubungin.com</li>
+                                <li>Cari kebutuhan anda di sini</li>
+                                <li>Menghubungkan anda ke beragam UMKM</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="header__top__right">
+                            <div class="header__top__right__social">
+                                <a href="https://twitter.com/agung_DPro" target="__blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/agungdwiprabowo/" target="__blank"><i class="fa fa-instagram"></i></a>
+                            </div>
+                            <div class="header__top__right__auth">
+                                <a href="/login"><i class="fa fa-user"></i> Masuk</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="/"><img src="/static/img/Home-4-r.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="header__menu">
+                        <div class="hero__search__form">
+                            <form action="/cari">
+                                <input type="text" name="keyword" placeholder="Apa yang kamu butuhkan ?" autocomplete="off">
+                                <button type="submit" class="site-btn">CARI</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-6">
+                    <nav class="header__menu">
+                        <ul>
+                            <li class="active"><a onclick="return false" href="/">Home</a></li>
+                            <li><a href="/favorit">Favorit</a></li>
+                            <li><a href="/sekitar">Sekitar saya</a></li>
+                        </ul>
+                    </nav>
+                </div> -->
+                <div class="col-lg-2">
+                    <div class="header__cart">
+                        <ul>
+                            <li><a title="Wishlist" href="{{ url('/wishlist') }}"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                            <li><a title="Keranjang belanja" href="{{ url('/pesanan') }}"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                            <li><a title="Keranjang belanja" href="{{ url('/pesan') }}"><i class="fa fa-envelope-o"></i> <span>3</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Banner -->
+    <!-- <div class="container">
+        <ul class="list-group list-group-horizontal-sm m-0 p-0 border-0 w-100">
+            <li class="list-group-item pt-0 pb-0 border-0 pl-0">
+                <img src="" alt="">
+            </li>
+        </ul>
+    </div> -->
+    <!-- /Banner -->
+
+    <!-- Categories Section Begin -->
+    <!-- <section class="categories">
+        <div class="container">
+            <div class="row">
+                <div class="categories__slider owl-carousel">
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="static/img/categories/cat-1.jpg">
+                            <h5><a href="/">Makanan</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="static/img/categories/cat-2.jpg">
+                            <h5><a href="/">Minuman</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="static/img/categories/cat-3.jpg">
+                            <h5><a href="/">Alat listrik</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="static/img/categories/cat-4.jpg">
+                            <h5><a href="/">Vitamin</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="static/img/categories/cat-5.jpg">
+                            <h5><a href="/">Minuman</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- /Categories Section End -->
+    <section class="mx-1 my-2">
+        <div class="container-fluid">
+            <div class="col-md-12 bg-white mb-1 border rounded py-2">
+                <h5 class="font-weight-bold">Kategori</h5>
+            </div>
+            <ul class="list-group list-group-horizontal border py-1 px-3 bg-white rounded">
+                <li class="list-group-item border w-100 m-1 py-5">
+
+                </li>
+                <li class="list-group-item border w-100 m-1">
+
+                </li>
+                <li class="list-group-item border w-100 m-1">
+
+                </li>
+                <li class="list-group-item border w-100 m-1">
+
+                </li>
+                <li class="list-group-item border w-100 m-1">
+
+                </li>
+                <li class="list-group-item border w-100 m-1">
+
+                </li>
+                <li class="list-group-item border w-100 m-1">
+
+                </li>
+                <li class="list-group-item border w-100 m-1">
+
+                </li>
+                <li class="list-group-item border w-100 m-1">
+
+                </li>
+                <li class="list-group-item border w-100 m-1">
+
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Rekomendasi produk -->
+        <section class="product pt-2 ml-3 mr-3 mt-3 mb-2 pb-2">
+            <div class="container-fluid border rounded m-0 p-0 shadow">
+                <div class="col-md-12 border-bottom mb-2 py-2 text-center">
+                    <h5 class="font-weight-bold">Rekomendasi untuk anda</h5>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-lg-2 mt-1 mb-2 px-1">
+                            <div class="card-body border rounded p-0 shadow-hover">
+                                <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                    <li class="list-group-item m-0 p-1">
+                                        <a href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                        <h6>Nama produk</h6>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                    <span class="font-weight-bold">Rp. 5000</span>
+                                    </li>
+                                    <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                        <ul class="list-group list-group-horizontal p-0 m-0">
+                                            <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                                <small>10 terjual</small>
+                                            </li>
+                                            <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                                <small>200 Review</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mt-1 mb-2 px-1">
+                            <div class="card-body border rounded p-0 shadow-hover">
+                                <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                    <li class="list-group-item m-0 p-1">
+                                        <a href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                        <h6>Nama produk</h6>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                    <span class="font-weight-bold">Rp. 5000</span>
+                                    </li>
+                                    <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                        <ul class="list-group list-group-horizontal p-0 m-0">
+                                            <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                                <small>10 terjual</small>
+                                            </li>
+                                            <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                                <small>200 Review</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mt-1 mb-2 px-1">
+                            <div class="card-body border rounded p-0 shadow-hover">
+                                <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                    <li class="list-group-item m-0 p-1">
+                                        <a href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                        <h6>Nama produk</h6>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                    <span class="font-weight-bold">Rp. 5000</span>
+                                    </li>
+                                    <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                        <ul class="list-group list-group-horizontal p-0 m-0">
+                                            <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                                <small>10 terjual</small>
+                                            </li>
+                                            <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                                <small>200 Review</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mt-1 mb-2 px-1">
+                            <div class="card-body border rounded p-0 shadow-hover">
+                                <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                    <li class="list-group-item m-0 p-1">
+                                        <a href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                        <h6>Nama produk</h6>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                    <span class="font-weight-bold">Rp. 5000</span>
+                                    </li>
+                                    <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                        <ul class="list-group list-group-horizontal p-0 m-0">
+                                            <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                                <small>10 terjual</small>
+                                            </li>
+                                            <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                                <small>200 Review</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mt-1 mb-2 px-1">
+                            <div class="card-body border rounded p-0 shadow-hover">
+                                <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                    <li class="list-group-item m-0 p-1">
+                                        <a href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                        <h6>Nama produk</h6>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                    <span class="font-weight-bold">Rp. 5000</span>
+                                    </li>
+                                    <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                        <ul class="list-group list-group-horizontal p-0 m-0">
+                                            <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                                <small>10 terjual</small>
+                                            </li>
+                                            <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                                <small>200 Review</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mt-1 mb-2 px-1">
+                            <div class="card-body border rounded p-0 shadow-hover">
+                                <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                    <li class="list-group-item m-0 p-1">
+                                        <a href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                        <h6>Nama produk</h6>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                    <span class="font-weight-bold">Rp. 5000</span>
+                                    </li>
+                                    <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                        <ul class="list-group list-group-horizontal p-0 m-0">
+                                            <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                                <small>10 terjual</small>
+                                            </li>
+                                            <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                                <small>200 Review</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 py-2 text-center">
+                    <button class="btn btn-md border rounded-0 px-5">tampilkan lainnya</button>
+                </div>
+            </div>
+        </section>
+    <!-- /Rekomendasi produk -->
+
+    <!-- Kelompok produk -->
+    <section class="product-details ml-3 mr-3 border p-2 mt-4 rounded shadow">
+        <div class="container-fluid">
+            <ul class="list-group list-group-horizontal-sm m-0 p-0 border-0 card w-100 text-center">
+                <li class="list-group-item pt-0 pb-0 border-0 w-100">
+                    <div class="card-body bkg-img-cust rounded" data-img="static/img/bkg/Food.jpg">
+                        <button class="btn btn-danger font-weight-bold" value="Ok">Makanan</button>
+                    </div>
+                </li>
+                <li class="list-group-item pt-0 pb-0 border-0 w-100">
+                    <div class="card-body bkg-img-cust rounded" data-img="static/img/bkg/Drink.jpg">
+                    <button class="btn btn-primary font-weight-bold">Minuman</button>
+                    </div>
+                </li>
+                <li class="list-group-item pt-0 pb-0 border-0 w-100">
+                    <div class="card-body bkg-img-cust rounded" data-img="static/img/bkg/Lamp.jpg">
+                        <button class="btn btn-light font-weight-bold">Lampu</button>
+                    </div>
+                </li>
+                <li class="list-group-item pt-0 pb-0 border-0 w-100">
+                    <div class="card-body bkg-img-cust rounded" data-img="static/img/bkg/Vitamins.jpg">
+                        <button class="btn btn-info font-weight-bold">Vitamin</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- /Kelompok produk -->
+    <!-- Rekomendasi produk -->
+        <section class="product pt-2 ml-3 mr-3 mt-3 mb-2 pb-2">
+            <div class="container-fluid border rounded m-0 p-0 shadow">
+                <div class="col-md-12 border-bottom mb-2 py-2 text-center">
+                    <h5 class="font-weight-bold">Sekitar anda</h5>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-lg-2 mt-1 mb-2 px-1">
+                            <div class="card-body border rounded p-0 shadow-hover">
+                                <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                    <li class="list-group-item m-0 p-1">
+                                        <a href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                        <h6>Nama produk</h6>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                    <span class="font-weight-bold">Rp. 5000</span>
+                                    </li>
+                                    <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                        <ul class="list-group list-group-horizontal p-0 m-0">
+                                            <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                                <small>10 terjual</small>
+                                            </li>
+                                            <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                                <small>200 Review</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mt-1 mb-2 px-1">
+                            <div class="card-body border rounded p-0 shadow-hover">
+                                <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                    <li class="list-group-item m-0 p-1">
+                                        <a href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                        <h6>Nama produk</h6>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                    <span class="font-weight-bold">Rp. 5000</span>
+                                    </li>
+                                    <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                        <ul class="list-group list-group-horizontal p-0 m-0">
+                                            <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                                <small>10 terjual</small>
+                                            </li>
+                                            <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                                <small>200 Review</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mt-1 mb-2 px-1">
+                            <div class="card-body border rounded p-0 shadow-hover">
+                                <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                    <li class="list-group-item m-0 p-1">
+                                        <a href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                        <h6>Nama produk</h6>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                    <span class="font-weight-bold">Rp. 5000</span>
+                                    </li>
+                                    <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                        <ul class="list-group list-group-horizontal p-0 m-0">
+                                            <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                                <small>10 terjual</small>
+                                            </li>
+                                            <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                                <small>200 Review</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mt-1 mb-2 px-1">
+                            <div class="card-body border rounded p-0 shadow-hover">
+                                <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                    <li class="list-group-item m-0 p-1">
+                                        <a href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                        <h6>Nama produk</h6>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                    <span class="font-weight-bold">Rp. 5000</span>
+                                    </li>
+                                    <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                        <ul class="list-group list-group-horizontal p-0 m-0">
+                                            <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                                <small>10 terjual</small>
+                                            </li>
+                                            <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                                <small>200 Review</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mt-1 mb-2 px-1">
+                            <div class="card-body border rounded p-0 shadow-hover">
+                                <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                    <li class="list-group-item m-0 p-1">
+                                        <a href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                        <h6>Nama produk</h6>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                    <span class="font-weight-bold">Rp. 5000</span>
+                                    </li>
+                                    <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                        <ul class="list-group list-group-horizontal p-0 m-0">
+                                            <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                                <small>10 terjual</small>
+                                            </li>
+                                            <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                                <small>200 Review</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mt-1 mb-2 px-1">
+                            <div class="card-body border rounded p-0 shadow-hover">
+                                <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                    <li class="list-group-item m-0 p-1">
+                                        <a href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                        <h6>Nama produk</h6>
+                                    </li>
+                                    <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                    <span class="font-weight-bold">Rp. 5000</span>
+                                    </li>
+                                    <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                        <ul class="list-group list-group-horizontal p-0 m-0">
+                                            <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                                <small>10 terjual</small>
+                                            </li>
+                                            <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                                <small>200 Review</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 py-2 text-center">
+                    <button class="btn btn-md border rounded-0 px-5">tampilkan lainnya</button>
+                </div>
+            </div>
+        </section>
+    <!-- /Rekomendasi produk -->
+    <!-- Featured Section Begin -->
+    <section class="featured spad mt-1 border-top border-bottom shadow ml-0 mr-0 border-top pt-3 mt-5 mb-5 border-right-0 border-left-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h4 class="font-weight-bold">Produk terlaris</h4>
+                    </div>
+                    <div class="featured__controls border-bottom">
+                        <ul>
+                            <li class="active" data-filter="*">All</li>
+                            <li data-filter=".korina-aloe">Korina aloe</li>
+                            <li data-filter=".legit-crumbs">Legit & crumbs</li>
+                            <li data-filter=".dessert-billa">Dezert By Billa</li>
+                            <li data-filter=".gafood">Gafood wsb</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row featured__filter">
+                <div class="col-md-3 col-sm-3 mix korina-aloe dessert-billa pt-1">
+                    <div class="card-body border rounded p-0 shadow-hover">
+                        <ul class="list-group list-group-flush h-100 p-0 m-0">
+                            <li class="list-group-item m-0 p-1">
+                                <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                <h6>Nama produk</h6>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 pl-1">
+                            <span class="font-weight-bold">Rp. 5000</span>
+                            </li>
+                            <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                <ul class="list-group list-group-horizontal p-0 m-0">
+                                    <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                        <small>10 terjual</small>
+                                    </li>
+                                    <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                        <small>200 Review</small>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 mix legit-crumbs korina-aloe pt-1">
+                    <div class="card-body border rounded p-0 shadow-hover">
+                        <ul class="list-group list-group-flush h-100 p-0 m-0">
+                            <li class="list-group-item m-0 p-1">
+                                <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                <h6>Nama produk</h6>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 pl-1">
+                            <span class="font-weight-bold">Rp. 5000</span>
+                            </li>
+                            <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                <ul class="list-group list-group-horizontal p-0 m-0">
+                                    <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                        <small>10 terjual</small>
+                                    </li>
+                                    <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                        <small>200 Review</small>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 mix dessert-billa gafood pt-1">
+                    <div class="card-body border rounded p-0 shadow-hover">
+                        <ul class="list-group list-group-flush h-100 p-0 m-0">
+                            <li class="list-group-item m-0 p-1">
+                                <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                <h6>Nama produk</h6>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 pl-1">
+                            <span class="font-weight-bold">Rp. 5000</span>
+                            </li>
+                            <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                <ul class="list-group list-group-horizontal p-0 m-0">
+                                    <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                        <small>10 terjual</small>
+                                    </li>
+                                    <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                        <small>200 Review</small>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 mix gafood legit-crumbs pt-1">
+                    <div class="card-body border rounded p-0 shadow-hover">
+                        <ul class="list-group list-group-flush h-100 p-0 m-0">
+                            <li class="list-group-item m-0 p-1">
+                                <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                <h6>Nama produk</h6>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 pl-1">
+                            <span class="font-weight-bold">Rp. 5000</span>
+                            </li>
+                            <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                <ul class="list-group list-group-horizontal p-0 m-0">
+                                    <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                        <small>10 terjual</small>
+                                    </li>
+                                    <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                        <small>200 Review</small>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 mix korina-aloe dessert-billa pt-1">
+                    <div class="card-body border rounded p-0 shadow-hover">
+                        <ul class="list-group list-group-flush h-100 p-0 m-0">
+                            <li class="list-group-item m-0 p-1">
+                                <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                <h6>Nama produk</h6>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 pl-1">
+                            <span class="font-weight-bold">Rp. 5000</span>
+                            </li>
+                            <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                <ul class="list-group list-group-horizontal p-0 m-0">
+                                    <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                        <small>10 terjual</small>
+                                    </li>
+                                    <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                        <small>200 Review</small>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 mix legit-crumbs korina-aloe pt-1">
+                    <div class="card-body border rounded p-0 shadow-hover">
+                        <ul class="list-group list-group-flush h-100 p-0 m-0">
+                            <li class="list-group-item m-0 p-1">
+                                <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                <h6>Nama produk</h6>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 pl-1">
+                            <span class="font-weight-bold">Rp. 5000</span>
+                            </li>
+                            <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                <ul class="list-group list-group-horizontal p-0 m-0">
+                                    <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                        <small>10 terjual</small>
+                                    </li>
+                                    <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                        <small>200 Review</small>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 mix dessert-billa gafood pt-1">
+                    <div class="card-body border rounded p-0 shadow-hover">
+                        <ul class="list-group list-group-flush h-100 p-0 m-0">
+                            <li class="list-group-item m-0 p-1">
+                                <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                <h6>Nama produk</h6>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 pl-1">
+                            <span class="font-weight-bold">Rp. 5000</span>
+                            </li>
+                            <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                <ul class="list-group list-group-horizontal p-0 m-0">
+                                    <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                        <small>10 terjual</small>
+                                    </li>
+                                    <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                        <small>200 Review</small>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 mix gafood legit-crumbs pt-1">
+                    <div class="card-body border rounded p-0 shadow-hover">
+                        <ul class="list-group list-group-flush h-100 p-0 m-0">
+                            <li class="list-group-item m-0 p-1">
+                                <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                <h6>Nama produk</h6>
+                            </li>
+                            <li class="list-group-item p-0 m-0 border-0 pl-1">
+                            <span class="font-weight-bold">Rp. 5000</span>
+                            </li>
+                            <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                <ul class="list-group list-group-horizontal p-0 m-0">
+                                    <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                        <small>10 terjual</small>
+                                    </li>
+                                    <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                        <small>200 Review</small>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Featured Section End -->
+
+    <!-- Daftar toko baru -->
+    <section class="from-blog pt-1 pb-4">
+        <div class="container-fluid shadow-lg p-3 mb-2 bg-white rounded">
+            <div class="col-lg-12">
+                <div class="section-title from-blog__title border-bottom">
+                    <h2>BARU</h2>
+                </div>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators custom-carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row mb-5 ml-2 mr-2">
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <!-- <img src="https://lh3.googleusercontent.com/proxy/tbWZ3P-euzvRzPIiZrsp1uh5IyQBeg0ZmZB8g0yjBXIB99csYA47aVL5jjXCwxW9az_cRteY2eWPqt7yIS2tH9oKN6IGDCTo2YmnzwPIQd972IpuimRDKxHjL6SMSbazJKNEETwn_yQracMx6kPm689kE1sirvameb9gIAlhaijFRFu2X6c6LaHeDD6aqx8md4rz0Q" alt=""> -->
+                                            </div>
+                                            <div class="col-md-8">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mb-5 ml-2 mr-2">
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mb-5 ml-2 mr-2">
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-1">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <img src="#" alt="">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Nama toko</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Daftar toko baru -->
+
+    <!-- Rekomendasi produk -->
+    <section class="product pt-2 ml-3 mr-3 mt-3 mb-2 pb-2">
+        <div class="container-fluid border rounded m-0 p-0 shadow">
+            <div class="col-md-12 border-bottom mb-2 py-2 px-1">
+                <h4 class="font-weight-bold">Produk minggu ini</h4>
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-lg-2 mt-1 mb-2 pl-1 pr-1">
+                        <div class="card-body border rounded p-0 shadow-hover">
+                            <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                <li class="list-group-item m-0 p-1">
+                                    <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                </li>
+                                <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                    <h6>Nama produk</h6>
+                                </li>
+                                <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                <span class="font-weight-bold">Rp. 5000</span>
+                                </li>
+                                <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                    <ul class="list-group list-group-horizontal p-0 m-0">
+                                        <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                            <small>10 terjual</small>
+                                        </li>
+                                        <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                            <small>200 Review</small>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mt-1 mb-2 pl-1 pr-1">
+                        <div class="card-body border rounded p-0 shadow-hover">
+                            <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                <li class="list-group-item m-0 p-1">
+                                    <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                </li>
+                                <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                    <h6>Nama produk</h6>
+                                </li>
+                                <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                <span class="font-weight-bold">Rp. 5000</span>
+                                </li>
+                                <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                    <ul class="list-group list-group-horizontal p-0 m-0">
+                                        <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                            <small>10 terjual</small>
+                                        </li>
+                                        <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                            <small>200 Review</small>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mt-1 mb-2 pl-1 pr-1">
+                        <div class="card-body border rounded p-0 shadow-hover">
+                            <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                <li class="list-group-item m-0 p-1">
+                                    <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                </li>
+                                <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                    <h6>Nama produk</h6>
+                                </li>
+                                <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                <span class="font-weight-bold">Rp. 5000</span>
+                                </li>
+                                <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                    <ul class="list-group list-group-horizontal p-0 m-0">
+                                        <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                            <small>10 terjual</small>
+                                        </li>
+                                        <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                            <small>200 Review</small>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mt-1 mb-2 pl-1 pr-1">
+                        <div class="card-body border rounded p-0 shadow-hover">
+                            <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                <li class="list-group-item m-0 p-1">
+                                    <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                </li>
+                                <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                    <h6>Nama produk</h6>
+                                </li>
+                                <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                <span class="font-weight-bold">Rp. 5000</span>
+                                </li>
+                                <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                    <ul class="list-group list-group-horizontal p-0 m-0">
+                                        <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                            <small>10 terjual</small>
+                                        </li>
+                                        <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                            <small>200 Review</small>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mt-1 mb-2 pl-1 pr-1">
+                        <div class="card-body border rounded p-0 shadow-hover">
+                            <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                <li class="list-group-item m-0 p-1">
+                                    <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                </li>
+                                <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                    <h6>Nama produk</h6>
+                                </li>
+                                <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                <span class="font-weight-bold">Rp. 5000</span>
+                                </li>
+                                <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                    <ul class="list-group list-group-horizontal p-0 m-0">
+                                        <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                            <small>10 terjual</small>
+                                        </li>
+                                        <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                            <small>200 Review</small>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mt-1 mb-2 pl-1 pr-1">
+                        <div class="card-body border rounded p-0 shadow-hover">
+                            <ul class="list-group list-group-flush h-100 p-0 m-0">
+                                <li class="list-group-item m-0 p-1">
+                                    <a onclick="return false" href="/info-produk"><img src="static/img/product/discount/pd-1.jpg" id="ukuran" alt=""></a>
+                                </li>
+                                <li class="list-group-item p-0 m-0 border-0 mt-2 pl-1">
+                                    <h6>Nama produk</h6>
+                                </li>
+                                <li class="list-group-item p-0 m-0 border-0 pl-1">
+                                <span class="font-weight-bold">Rp. 5000</span>
+                                </li>
+                                <li class="list-group-item m-0 px-1 py-0 empty-boks border-0">
+                                    <ul class="list-group list-group-horizontal p-0 m-0">
+                                        <li class="list-group-item border-0 p-0 m-0 text-left w-100">
+                                            <small>10 terjual</small>
+                                        </li>
+                                        <li class="list-group-item border-0 p-0 m-0 text-right w-100">
+                                            <small>200 Review</small>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 text-center">
+                <button class="btn btn-outline-info btn-md w-50 mt-5 mb-5">Tampilkan lebih banyak</button>
+            </div>
+        </div>
+        </section>
+    <!-- /Rekomendasi produk -->
+
+    <!-- /sampel produk -->
+
+    <!-- Banner Begin -->
+    <!-- <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="/static/img/banner/banner-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="/static/img/banner/banner-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Banner End -->
+
+
+    <!-- Sampel produk terbaru, paling laku, paling sering dikunjungi, rating baik-->
+    <!-- Latest Product Section Begin -->
+    <!-- <section class="latest-product spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="latest-product__text">
+                        <div class="col-md-12 text-center border-bottom mb-2">
+                            <h4 class="font-weight-bold mb-4">Produk Terbaru</h4>
+                        </div>
+                        <div class="latest-product__slider owl-carousel">
+                            <ul class="list-group latest-product__slider__item border-0">
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="list-group latest-product__slider__item border-0">
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="list-group latest-product__slider__item border-0">
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="latest-product__text">
+                        <div class="col-md-12 text-center border-bottom mb-2">
+                            <h4 class="font-weight-bold mb-4">Produk Terbaru</h4>
+                        </div>
+                        <div class="latest-product__slider owl-carousel">
+                            <ul class="list-group latest-product__slider__item border-0">
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="list-group latest-product__slider__item border-0">
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="list-group latest-product__slider__item border-0">
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-2 pr-2 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-group-item latest-product__item border-0 m-0 p-0 mb-2">
+                                    <ul class="list-group list-group-horizontal-sm border-0">
+                                        <li class="list-group-item border-0 m-0 p-0">
+                                            <img src="/static/img/latest-product/lp-1.jpg" alt="">
+                                        </li>
+                                        <li class="list-group-item border-0 ml-4 p-0 mt-0 mr-0 mb-0">
+                                            <ul class="list-group border-0">
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <h5><a onclick="event.preventDefault()" href="">Nama produk</a></h5>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <p>Nama toko</p>
+                                                </li>
+                                                <li class="list-group-item border-0 m-0 p-0">
+                                                    <div class="product__details__rating">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star-half-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 border-bottom pb-2 mt-2">
+                                        <ul class="list-group list-group-horizontal-sm border-0 m-0 p-0 w-100">
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-danger btn-sm pt-1 pb-1 pl-5 pr-5">Beli</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-primary btn-sm pt-1 pb-1 pl-5 pr-5">Keranjang</button>
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                                <button class="btn btn-outline-warning btn-sm pt-1 pb-1 pl-5 pr-5"><i class="fa fa-heart"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Latest Product Section End -->
+
+    <!-- Blog Section Begin -->
+    <!-- <section class="from-blog spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title from-blog__title">
+                        <h2>PALING DICARI 1 MINGGU INI</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic border-bottom pb-1">
+                            <img src="/static/img/blog/blog-1.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul class="mb-1 border-bottom pb-1">
+                                <li><i class="fa fa-star-o"></i> 4.5/5</li>
+                                <li><button class="btn btn-outline-primary btn-sm w-100">Keranjang</button></li>
+                                <li><button class="btn btn-outline-danger btn-sm pl-3 pr-3">Beli</button></li>
+                            </ul>
+                            <div class="col-md-12 mt-0 mb-2 border-bottom pb-1">
+                                <button class="btn btn-outline-warning btn-sm pt-0 pb-0 w-100"><i class="fa fa-heart"></i></button>
+                            </div>
+                            <h5 class="mb-1"><a onclick="event.preventDefault()" href="#">Es krim lidah buaya</a></h5>
+                            <h6 class="mb-2"><a onclick="event.preventDefault()" href="">Nama toko</a></h6>
+                            <p>Es krim lidah buaya dengan berbagai macam toping </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic border-bottom pb-1">
+                            <img src="/static/img/blog/blog-2.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul class="mb-1 border-bottom pb-1">
+                                <li><i class="fa fa-star-o"></i> 4.5/5</li>
+                                <li><button class="btn btn-outline-primary btn-sm w-100">Keranjang</button></li>
+                                <li><button class="btn btn-outline-danger btn-sm pl-3 pr-3">Beli</button></li>
+                            </ul>
+                            <div class="col-md-12 mt-0 mb-2 border-bottom pb-1">
+                                <button class="btn btn-outline-warning btn-sm pt-0 pb-0 w-100"><i class="fa fa-heart"></i></button>
+                            </div>
+                            <h5 class="mb-1"><a onclick="event.preventDefault()"href="#">6 ways to prepare breakfast for 30</a></h5>
+                            <h6 class="mb-2"><a onclick="event.preventDefault()" href="">Nama toko</a></h6>
+                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic border-bottom pb-1">
+                            <img src="/static/img/blog/blog-3.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul class="mb-1 border-bottom pb-1">
+                                <li><i class="fa fa-star-o"></i> 4.5/5</li>
+                                <li><button class="btn btn-outline-primary btn-sm w-100">Keranjang</button></li>
+                                <li><button class="btn btn-outline-danger btn-sm pl-3 pr-3">Beli</button></li>
+                            </ul>
+                            <div class="col-md-12 mt-0 mb-2 border-bottom pb-1">
+                                <button class="btn btn-outline-warning btn-sm pt-0 pb-0 w-100"><i class="fa fa-heart"></i></button>
+                            </div>
+                            <h5 class="mb-1"><a onclick="event.preventDefault()"href="#">Visit the clean farm in the US</a></h5>
+                            <h6 class="mb-2"><a onclick="event.preventDefault()" href="">Nama toko</a></h6>
+                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic border-bottom pb-1">
+                            <img src="/static/img/blog/blog-3.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul class="mb-1 border-bottom pb-1">
+                                <li><i class="fa fa-star-o"></i> 4.5/5</li>
+                                <li><button class="btn btn-outline-primary btn-sm w-100">Keranjang</button></li>
+                                <li><button class="btn btn-outline-danger btn-sm pl-3 pr-3">Beli</button></li>
+                            </ul>
+                            <div class="col-md-12 mt-0 mb-2 border-bottom pb-1">
+                                <button class="btn btn-outline-warning btn-sm pt-0 pb-0 w-100"><i class="fa fa-heart"></i></button>
+                            </div>
+                            <h5 class="mb-1"><a onclick="event.preventDefault()"href="#">Visit the clean farm in the US</a></h5>
+                            <h6 class="mb-2"><a onclick="event.preventDefault()" href="">Nama toko</a></h6>
+                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Blog Section End -->
+
+
+
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="./index.html"><img src="/static/img/Home-4-r.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Alamat: Sleman, DI Yogyakarta</li>
+                            <li>Email: custservice@hubungin.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                        <h6>Tautan alternatif</h6>
+                        <ul>
+                            <li><a href="#">Tentang kami</a></li>
+                            <!-- <li><a href="#">About Our Shop</a></li>
+                            <li><a href="#">Secure Shopping</a></li>
+                            <li><a href="#">Delivery infomation</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Our Sitemap</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <h6>Media sosial</h6>
+                        <p>Dapatkan info & penawaran menarik dari kami melalui:</p>
+                        <div class="footer__widget__social">
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Tampilan web ini dibuat oleh  <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                        <!-- <div class="footer__copyright__payment"><img src="/static/img/payment-item.png" alt=""></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery-ui.min.js"></script>
+    <script src="/static/js/jquery.slicknav.js"></script>
+    <script src="/static/js/mixitup.min.js"></script>
+    <script src="/static/js/owl.carousel.min.js"></script>
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/Custom_js/Create_form.js"></script>
+</body>
+</html>
